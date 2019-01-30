@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131417652201766400F7E4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131417642201766400F7E4C4 /* AppDelegate.swift */; };
+		131417672201766400F7E4C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131417662201766400F7E4C4 /* ViewController.swift */; };
+		1314176C2201766600F7E4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1314176B2201766600F7E4C4 /* Assets.xcassets */; };
+		1314176F2201766600F7E4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1314176D2201766600F7E4C4 /* LaunchScreen.storyboard */; };
+		1314177E220177B400F7E4C4 /* VolunteerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13141776220177B300F7E4C4 /* VolunteerMap.swift */; };
+		1314177F220177B400F7E4C4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13141777220177B300F7E4C4 /* MapViewController.swift */; };
+		13141780220177B400F7E4C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13141778220177B300F7E4C4 /* LoginViewController.swift */; };
+		13141781220177B400F7E4C4 /* ShelterSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13141779220177B300F7E4C4 /* ShelterSelect.swift */; };
+		13141782220177B400F7E4C4 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314177A220177B400F7E4C4 /* ShelterViewController.swift */; };
+		13141784220177B400F7E4C4 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1314177C220177B400F7E4C4 /* RegisterPageViewController.swift */; };
+		131417872201786100F7E4C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131417862201786100F7E4C4 /* Main.storyboard */; };
+		1314178B22017A7F00F7E4C4 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 1314178A22017A7F00F7E4C4 /* Images */; };
+		13770FE3220241EF004F4FEF /* LogoNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 13770FE2220241EF004F4FEF /* LogoNew.png */; };
+		13770FE52202420B004F4FEF /* CalliHouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13770FE42202420B004F4FEF /* CalliHouse.jpg */; };
+		13770FE72202420E004F4FEF /* BrooksideShelterImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13770FE62202420E004F4FEF /* BrooksideShelterImg.jpg */; };
+		13770FE922024211004F4FEF /* rescueMission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13770FE822024211004F4FEF /* rescueMission.jpg */; };
+		375A1483DE013DAD4DBE691F /* Pods_FoodSwap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB472A3762C30B3AF5BB5F3 /* Pods_FoodSwap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094C9E5F34256C543F6DE33C /* Pods-FoodSwap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwap.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSwap/Pods-FoodSwap.release.xcconfig"; sourceTree = "<group>"; };
+		131417612201766400F7E4C4 /* FoodSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131417642201766400F7E4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		131417662201766400F7E4C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1314176B2201766600F7E4C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1314176E2201766600F7E4C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13141776220177B300F7E4C4 /* VolunteerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolunteerMap.swift; path = ../../../../Downloads/Final/VolunteerMap.swift; sourceTree = "<group>"; };
+		13141777220177B300F7E4C4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../../Downloads/Final/MapViewController.swift; sourceTree = "<group>"; };
+		13141778220177B300F7E4C4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../Downloads/Final/LoginViewController.swift; sourceTree = "<group>"; };
+		13141779220177B300F7E4C4 /* ShelterSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSelect.swift; path = ../../../../Downloads/Final/ShelterSelect.swift; sourceTree = "<group>"; };
+		1314177A220177B400F7E4C4 /* ShelterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterViewController.swift; path = ../../../../Downloads/Final/ShelterViewController.swift; sourceTree = "<group>"; };
+		1314177B220177B400F7E4C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../Downloads/Final/Info.plist; sourceTree = "<group>"; };
+		1314177C220177B400F7E4C4 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterPageViewController.swift; path = ../../../../Downloads/Final/RegisterPageViewController.swift; sourceTree = "<group>"; };
+		131417862201786100F7E4C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Downloads/Main.storyboard; sourceTree = "<group>"; };
+		1314178A22017A7F00F7E4C4 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = ../../../../Downloads/Images; sourceTree = "<group>"; };
+		13770FE2220241EF004F4FEF /* LogoNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LogoNew.png; path = ../../../../Downloads/Images/LogoNew.png; sourceTree = "<group>"; };
+		13770FE42202420B004F4FEF /* CalliHouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CalliHouse.jpg; path = ../../../../Downloads/Images/CalliHouse.jpg; sourceTree = "<group>"; };
+		13770FE62202420E004F4FEF /* BrooksideShelterImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BrooksideShelterImg.jpg; path = ../../../../Downloads/Images/BrooksideShelterImg.jpg; sourceTree = "<group>"; };
+		13770FE822024211004F4FEF /* rescueMission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rescueMission.jpg; path = ../../../../Downloads/Images/rescueMission.jpg; sourceTree = "<group>"; };
+		8DB472A3762C30B3AF5BB5F3 /* Pods_FoodSwap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodSwap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA49B68699F518A35FB5B01F /* Pods-FoodSwap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodSwap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodSwap/Pods-FoodSwap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1314175E2201766400F7E4C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375A1483DE013DAD4DBE691F /* Pods_FoodSwap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131417582201766400F7E4C4 = {
+			isa = PBXGroup;
+			children = (
+				131417632201766400F7E4C4 /* FoodSwap */,
+				131417622201766400F7E4C4 /* Products */,
+				395A67318ABA559DDEC46F8A /* Pods */,
+				688E258112E49F5FB3F1C7D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		131417622201766400F7E4C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131417612201766400F7E4C4 /* FoodSwap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131417632201766400F7E4C4 /* FoodSwap */ = {
+			isa = PBXGroup;
+			children = (
+				131417642201766400F7E4C4 /* AppDelegate.swift */,
+				131417662201766400F7E4C4 /* ViewController.swift */,
+				1314178A22017A7F00F7E4C4 /* Images */,
+				1314176B2201766600F7E4C4 /* Assets.xcassets */,
+				13770FE822024211004F4FEF /* rescueMission.jpg */,
+				13770FE62202420E004F4FEF /* BrooksideShelterImg.jpg */,
+				13770FE42202420B004F4FEF /* CalliHouse.jpg */,
+				13770FE2220241EF004F4FEF /* LogoNew.png */,
+				1314176D2201766600F7E4C4 /* LaunchScreen.storyboard */,
+				1314177B220177B400F7E4C4 /* Info.plist */,
+				13141778220177B300F7E4C4 /* LoginViewController.swift */,
+				13141777220177B300F7E4C4 /* MapViewController.swift */,
+				1314177C220177B400F7E4C4 /* RegisterPageViewController.swift */,
+				13141779220177B300F7E4C4 /* ShelterSelect.swift */,
+				1314177A220177B400F7E4C4 /* ShelterViewController.swift */,
+				13141776220177B300F7E4C4 /* VolunteerMap.swift */,
+				131417862201786100F7E4C4 /* Main.storyboard */,
+			);
+			path = FoodSwap;
+			sourceTree = "<group>";
+		};
+		395A67318ABA559DDEC46F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA49B68699F518A35FB5B01F /* Pods-FoodSwap.debug.xcconfig */,
+				094C9E5F34256C543F6DE33C /* Pods-FoodSwap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		688E258112E49F5FB3F1C7D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB472A3762C30B3AF5BB5F3 /* Pods_FoodSwap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131417602201766400F7E4C4 /* FoodSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131417732201766600F7E4C4 /* Build configuration list for PBXNativeTarget "FoodSwap" */;
+			buildPhases = (
+				B4A4906322B90D30C384029D /* [CP] Check Pods Manifest.lock */,
+				1314175D2201766400F7E4C4 /* Sources */,
+				1314175E2201766400F7E4C4 /* Frameworks */,
+				1314175F2201766400F7E4C4 /* Resources */,
+				4C051CCF4A204872FC286291 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodSwap;
+			productName = FoodSwap;
+			productReference = 131417612201766400F7E4C4 /* FoodSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131417592201766400F7E4C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Anirudh Iyer";
+				TargetAttributes = {
+					131417602201766400F7E4C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1314175C2201766400F7E4C4 /* Build configuration list for PBXProject "FoodSwap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131417582201766400F7E4C4;
+			productRefGroup = 131417622201766400F7E4C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131417602201766400F7E4C4 /* FoodSwap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1314175F2201766400F7E4C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1314178B22017A7F00F7E4C4 /* Images in Resources */,
+				13770FE922024211004F4FEF /* rescueMission.jpg in Resources */,
+				1314176F2201766600F7E4C4 /* LaunchScreen.storyboard in Resources */,
+				13770FE72202420E004F4FEF /* BrooksideShelterImg.jpg in Resources */,
+				13770FE52202420B004F4FEF /* CalliHouse.jpg in Resources */,
+				1314176C2201766600F7E4C4 /* Assets.xcassets in Resources */,
+				13770FE3220241EF004F4FEF /* LogoNew.png in Resources */,
+				131417872201786100F7E4C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C051CCF4A204872FC286291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodSwap/Pods-FoodSwap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps/TomTomOnlineSDKMaps.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage/TomTomOnlineSDKMapsStaticImage.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting/TomTomOnlineSDKRouting.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch/TomTomOnlineSDKSearch.framework",
+				"${PODS_ROOT}/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic/TomTomOnlineSDKTraffic.framework",
+				"${PODS_ROOT}/TomTomOnlineUtils/TomTomOnlineUtils/TomTomOnlineUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMaps.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsStaticImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKMapsUIExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKRouting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKSearch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineSDKTraffic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TomTomOnlineUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodSwap/Pods-FoodSwap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A4906322B90D30C384029D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodSwap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1314175D2201766400F7E4C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13141784220177B400F7E4C4 /* RegisterPageViewController.swift in Sources */,
+				131417672201766400F7E4C4 /* ViewController.swift in Sources */,
+				1314177E220177B400F7E4C4 /* VolunteerMap.swift in Sources */,
+				131417652201766400F7E4C4 /* AppDelegate.swift in Sources */,
+				13141780220177B400F7E4C4 /* LoginViewController.swift in Sources */,
+				1314177F220177B400F7E4C4 /* MapViewController.swift in Sources */,
+				13141782220177B400F7E4C4 /* ShelterViewController.swift in Sources */,
+				13141781220177B400F7E4C4 /* ShelterSelect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1314176D2201766600F7E4C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1314176E2201766600F7E4C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131417712201766600F7E4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		131417722201766600F7E4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131417742201766600F7E4C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA49B68699F518A35FB5B01F /* Pods-FoodSwap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Downloads/Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnirudhIyer.FoodSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131417752201766600F7E4C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094C9E5F34256C543F6DE33C /* Pods-FoodSwap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Downloads/Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnirudhIyer.FoodSwap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1314175C2201766400F7E4C4 /* Build configuration list for PBXProject "FoodSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131417712201766600F7E4C4 /* Debug */,
+				131417722201766600F7E4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131417732201766600F7E4C4 /* Build configuration list for PBXNativeTarget "FoodSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131417742201766600F7E4C4 /* Debug */,
+				131417752201766600F7E4C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131417592201766400F7E4C4 /* Project object */;
+}
